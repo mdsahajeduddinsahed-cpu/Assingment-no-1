@@ -71,8 +71,12 @@ cursor: pointer;
   font-size: 16px;
   color: #30B868;
   cursor: pointer;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
   
 }
+
 #banner .heading h1{
  width: 770px;
   height: 168px;
@@ -114,7 +118,10 @@ text-align: center;
   border: none;
   cursor: pointer;
 
+
 }
+
+
 #banner .btn3{
   width: 198px;
   height: 52px;
@@ -164,6 +171,9 @@ text-align: center;
   margin-right: 120px;
   gap: 24px;
   background-color: white;
+  
+  
+  
 
 }
 #card .card1 {
@@ -173,6 +183,7 @@ text-align: center;
   align-items: center;
   flex-direction: column;
   text-align: center;
+  border: 1px solid black;
 
 }
 #card .card1 img{
