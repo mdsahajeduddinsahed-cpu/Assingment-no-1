@@ -221,3 +221,41 @@ text-align: center;
   line-height: 20px;
   color: #627382;
 }
+#the-solution{
+  box-sizing: border-box;
+  margin: 120px;
+  width: 1360px;
+  height: 600px;
+  border: 1px solid black;
+  display: flex;
+  gap: 60px;
+}
+#the-solution .knowledge-img{
+  width: 600px;
+  height: 600px;
+  border-radius: 12px;
+}
+#the-solution span{
+  font-size: 16px;
+  color: #30B868;
+}
+#the-solution .heading1 h2{
+  font-weight: bold;
+  font-size: 48px;
+  color: #001931;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+#the-solution p{
+  line-height: 20px;
+  font-size: 16px;
+  color: #627382;
+  margin-bottom: 40px;
+  max-width: 450px;
+}
+
+#the-solution .check-circle{
+  font-size: 16px;
+  color:#001931;
+justify-content: space-around;
+}
