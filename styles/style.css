@@ -1,0 +1,126 @@
+*{
+   margin: 0;
+  padding: 0;
+ box-sizing: border-box;
+}
+
+font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+nav{
+  max-width: 1600px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid red;
+  
+}
+ 
+nav .logo{
+  width: 139px;
+  height: 60px;
+  padding: 16px 120px 16px ;
+
+}
+nav .menu{
+  display: flex;
+  list-style-type: none;
+  gap: 32px;
+  padding-top: 34px;
+  padding-bottom: 34px;
+  padding-right: 120px;
+}
+nav .menu a{
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+  line-height: 152%;
+}
+.btn{
+  background-color: #30B868;
+  width: 164px;
+  height: 44px;
+  border-radius: 4px;
+  margin-right:120px ;
+margin: 24px;
+margin-bottom: 24px;
+font-size: 16px;
+font-weight: 600px;
+color: white;
+}
+#banner{
+  background-image: url(../assets/hero-bg.png);
+  width: 1600px;
+  height: 674px;
+  position: relative;
+  background-size: cover;
+}
+#banner .btn1{
+  width: 229px;
+  height: 35px;
+  padding: 8px auto;
+  margin: 115.5px 685.5px 16px 684.5px;
+  margin-bottom: 0;
+  border-radius: 1000px;
+  font-size: 16px;
+  color: #30B868;
+  cursor: pointer;
+  
+}
+#banner .heading h1{
+ width: 770px;
+  height: 168px;
+  margin: 16px 415px;
+  text-align: center;
+  color: white;
+
+
+}
+#banner .heading .heading-color{
+  color: #30B868;
+}
+#banner .banner-content p {
+color: white;
+width: 1320px;
+height: 60px;
+line-height: 24px;
+font-size: 18px;
+margin-left: 120px;
+margin-right: 120px;
+text-align: center;
+
+}
+#banner .btn2{
+  background-color: #30B868;
+  width: 251px;
+  height: 52px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600px;
+  color: white;
+  border: none;
+  cursor: pointer;
+
+}
+#banner .btn3{
+  width: 198px;
+  height: 52px;
+  border-radius: 4px;
+  background: transparent;
+  font-size: 16px;
+  font-weight: 600px;
+  border: 1px solid white;
+  padding: 16px 12px;
+  color: white;
+  cursor: pointer;
+  
+}
+#banner .button-design{
+  gap: 10px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-bottom: 179.5px;
+}
