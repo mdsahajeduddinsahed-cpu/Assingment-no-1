@@ -124,3 +124,100 @@ text-align: center;
   align-items: center;
   margin-bottom: 179.5px;
 }
+#heading-container{
+  width: 1360px; 
+  height: 152px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+#heading-container h1{
+  font-size: 48px;
+  font-weight: bold;         
+  color:#001931;
+
+}
+#heading-container p{
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+}
+#card{
+  display: flex;
+  width: 1360px;
+  height: 300px;
+  margin-left:120px ;
+  margin-right: 120px;
+  gap: 24px;
+   text-align: center;
+  justify-content: center;
+  
+}
+#card .card1 {
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px 5px wheat;
+  padding: 24px 24px;
+
+}
+
+#card .card2 {
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px 5px wheat;
+  padding: 24px 24px;
+}
+
+#card .card3 {
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px 5px wheat;
+  padding: 24px 24px;
+}
+
+#card .card4 {
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px 5px wheat;
+  padding: 24px 24px;
+}
+#card .card1 h2{
+  font-size: 24px;
+  font-weight: 600px;
+  color: #001931;
+  
+}
+#card .card1 p{
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+}
+#card .card2 h2{
+  font-size: 24px;
+  font-weight: 600px;
+  color: #001931;
+  
+}
+#card .card2 p{
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+}
+#card .card3 h2{
+  font-size: 24px;
+  font-weight: 600px;
+  color: #001931;
+  
+}
+#card .card3 p{
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+}
+#card .card4 h2{
+  font-size: 24px;
+  font-weight: 600px;
+  color: #001931;
+  
+}
+#card .card4 p{
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+}
